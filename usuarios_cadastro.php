@@ -2,7 +2,7 @@
 
 <?php
 include 'usuarios_controller.php';
-
+include 'principal_controller.php';
 
 //Pega todos os usuários para preencher os dados da tabela
 $users = getUsers();
@@ -34,8 +34,8 @@ if (isset($_GET['edit'])) {
     </script>
 </head>
 <body>
-    <h2>Cadastro de Usuários</h2>
     <div class="container mt-3">
+    <h2>Cadastro de Usuários</h2>
     <form method="POST" action="">
         <input type="hidden" id="id" name="id" value="<?php echo $userToEdit['id'] ?? ''; ?>">
         

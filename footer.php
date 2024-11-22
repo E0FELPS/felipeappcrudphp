@@ -1,6 +1,7 @@
 <footer class="bg-dark text-white d-flex align-items-center" style="height: 2cm;">
+        
         <div class="container text-center">
-        <p>Olá, <?php echo htmlspecialchars($nome); ?>!</p>
+            <p>Olá, <?php echo htmlspecialchars($nome); ?>!</p>
             <p class="mb-0">&copy; <?php echo date("Y"); ?> Seu Nome ou Empresa. Todos os direitos reservados.</p>
         </div>
     </footer>
